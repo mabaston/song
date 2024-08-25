@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.thumbnail {
+    border-radius: 15px;
+    height: 200px;
+}
+
+.audio-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-family: monospace;
+    cursor: pointer;
+    margin: 20px 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px 23px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(34, 34, 34);
+}
+
+h2 {
+    color: white;
+    font-family: monospace;
+}
+
+.qrcode-section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.qr-code {
+    height: 100px
+}
