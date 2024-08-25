@@ -14,7 +14,7 @@ const errorHandler = require('./middlewares/error-handler');
 
 app.use(logger);
 
-app.use('/', express.static('./public'));
+app.use('/', express.static('./public/download-song'));
 
 const usersRoutes = require('./routes/users-routes');
 const productsRoutes = require('./routes/products-routes');
